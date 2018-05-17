@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test": "env $(cat .env) mocha ./main.js"
+  },
   "dependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.1.1",
